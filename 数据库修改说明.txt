@@ -1,0 +1,7 @@
+1.所有表都被加上了create_time字段,并且类型为double
+2.新增了capital表,用于存储用户资金
+3.goods表中的price字段与total都被更改类型为double
+4.goods表中新增字段goods_main,类型为text
+5.order_goods表中total字段类型更改为double
+6.shopping_cart表新增字段total表示数量
+8.模型层也按照以上修改更新了
